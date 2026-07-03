@@ -1,0 +1,5 @@
+skill,n_postings_with_skill,n_with_salary,median_salary_eur_with_skill,median_salary_eur_without_skill,diff_eur
+azure,57,39,70200,51333,18867
+sql,116,100,54405,51334,3071
+power bi,100,84,53457,51480,1977
+python,58,46,52010,51558,453
