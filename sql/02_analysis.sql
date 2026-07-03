@@ -1,0 +1,1 @@
+-- Later phase: aggregation queries for salary/skill/city analysis. Not yet implemented.

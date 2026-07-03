@@ -1,0 +1,1 @@
+-- Phase 2: table schema for raw job postings. Not yet implemented.
