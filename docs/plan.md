@@ -47,7 +47,11 @@ eu-data-jobs-market-analysis/
 ## Phases
 - Phase 1 (0.5 day): repo scaffold. DONE.
 - Phase 2: Postgres schema + fetch_jobs.py (Adzuna collection with resume/rate limiting)
-- Phase 3: transform_jobs.py (clean, dedup, load into Postgres)
+- Phase 3: transform_jobs.py (clean, dedup, load into Postgres). DONE.
+  3744 unique jobs, 73.4% with salary_mid, skill extraction limited by
+  Adzuna's ~500-char description truncation (0.14 skills/job avg,
+  not the 2x originally hoped for — documented as data source limitation
+  in README, not a code defect).
 - Phase 4: SQL analysis queries
 - Phase 5: Power BI dashboard (3 pages)
 - Phase 6: Excel one-pager
